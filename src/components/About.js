@@ -1,19 +1,10 @@
 const About = () => {
     return (
         <div>
-            <h1>About Page</h1>
-            <div style={{marginTop: "10px"}} className="links_list">
-                <ul>
-                    <li>
-                        Page 1
-                    </li>
-                    <li>
-                        Page 2
-                    </li>
-                    <li>
-                        Page 3
-                    </li>
-                </ul>
+            <h1>About Me</h1>
+            <div style={{marginTop: "10px"}} className="aboutMe">
+                <p>I love to travel</p>
+                <p>I love yoga</p>              
             </div>
         </div>
         );

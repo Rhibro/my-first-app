@@ -2,9 +2,9 @@ import {Link} from "react-router-dom";
 
 const Footer = () => {
  return (
-    <header className="header">
+    <footer className="footer">
         <nav>
-            <ul>
+            <ul className="footerList">
                 <li>
                     <Link className="links" to="/">
                         Home
@@ -15,9 +15,20 @@ const Footer = () => {
                         About
                     </Link>
                 </li>
+                <li>
+                    <Link className="links" to="/contact">
+                        Contact
+                    </Link>
+                </li>
+                <li>
+                    <p>Call Me: 012 345 67 89</p>
+                </li>
+                <li>
+                    <p>Email Me: rhiannon@bron.com</p>
+                </li>
             </ul>
         </nav>
-    </header>
+    </footer>
  );
     
 };
