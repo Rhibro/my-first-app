@@ -48,7 +48,12 @@ p {
   max-height: 90px;
   height: 100%;
   margin: 0;
-  background-color: bisque;
+  background-color: #924D1A;
+}
+
+.links {
+  text-decoration: none;
+  color: black;
 }
 
 .headerList {
@@ -66,7 +71,7 @@ p {
   max-height: 90px;
   height: 100%;
   margin: 0;
-  background-color: bisque;
+  background-color: #924D1A;
 }
 
 .footerList {
