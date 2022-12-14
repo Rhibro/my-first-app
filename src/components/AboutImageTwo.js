@@ -1,4 +1,4 @@
-import headstand from "../images/headstand .jpg";
+import yoga from "../images/yoga.jpg";
 
 const AboutImageTwo = () => {
     return (
@@ -11,7 +11,7 @@ const AboutImageTwo = () => {
                 margin: "1rem",
             }}
         >
-            <img src={headstand} alt="Me doing a headstand" height={500} width={400}/>
+            <img src={yoga} alt="Me doing a headstand" height={600} width={400}/>
         </div> 
     );
 };
