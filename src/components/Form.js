@@ -3,8 +3,10 @@ import React from "react";
 const Form = () => {
     return (
         <div className="container">
+            <h1>Contact Me</h1>
             <form>
-                <h1>Contact Me!</h1>
+                <label>Your Name</label>
+                <input></input>
             </form>
         </div>
     );
