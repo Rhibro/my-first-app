@@ -6,7 +6,7 @@ import Button from "./Button";
 
 const Home = () => {
     return (
-    <div className="container">
+    <div className="containerHome">
         <h1>Rhiannon Brönnimann</h1>
         <p>I'm a Front End Developer based in Malmö, Sweden</p>
         <ImageDisplay />

@@ -11,6 +11,7 @@ const Form = () => {
                 <input></input>
                 <label>Your Message</label>
                 <input></input>
+                <button>Submit</button>
             </form>
         </div>
     );

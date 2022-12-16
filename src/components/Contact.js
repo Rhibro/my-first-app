@@ -13,7 +13,7 @@ export default function Contact() {
                     <p>Hope you are enjoying your time!</p>
                 </Modal>
               )} 
-                <div className="conatiner">
+                <div className="conatinerContact">
                     <button onClick={() => setStatus(true)}>Open Modal</button>
                 </div>
             </div>

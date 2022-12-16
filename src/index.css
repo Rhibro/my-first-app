@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
+/* Over all styles */ 
+
 * {
   margin: 0;
   padding: 0;
@@ -11,6 +13,21 @@ body {
   font-size: 1.2rem;
   font-weight: 400;
 }
+
+.links {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+
+p {
+  margin: 1rem;
+  display: flex;
+  align-items: center;
+  color: black;
+}
+
+/* App Styles */
 
 .container {
   margin: 2rem;
@@ -27,19 +44,23 @@ h1 {
   color: black;
 }
 
+/* Home Styles */
+
+.containerHome {
+  margin: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* About Styles */
+
 .aboutMe {
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-}
-
-.myForm {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  margin: 1rem;
 }
 
 .pOne {
@@ -70,91 +91,108 @@ img {
   margin: 1rem;
 }
 
+/* Contact Styles */
+
+.containerContact {
+  margin: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* Form Styles */
+
+.myForm {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  margin: 1rem;
+  background-color: #924D1A;
+  height: 400px;
+  width: 300px;
+  border-radius: 20px;
+}
+
+label {
+  color: white;
+  font-weight: 600;
+}
+
+/* Modal Styles */
+
+.overlay {
+  background-color: #924D1A;
+  border-radius: 20px;
+  width: 20vw;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+}
+
+.content {
+  color: black;
+}
+
+/* Header Styles */
+
 .header {
   width: 100%;
   height: 90px;
   margin: 0;
   background-color: #924D1A;
-}
-
-.links {
-  text-decoration: none;
-  color: black;
+  display: flex;
 }
 
 .headerList {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  align-items: center;
-  flex-direction: row;
   list-style: none;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
   margin: 1rem;
 }
 
-p {
-  margin: 1rem;
-  display: flex;
-  align-items: center;
-}
+/* Footer Styles */
 
 .footer {
   width: 100%;
-  max-height: 90px;
-  height: 100%;
-  margin: 0;
+  max-height: 100px;
   background-color: #924D1A;
+  display: flex;
 }
 
 .footerList {
   list-style: none;
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
   flex-direction: row;
-  margin: 1rem;
 }
+
+/* Button Styles */
 
 button {
   padding: 0.7rem;
   font-size: 1.5rem;
   font-weight: 700;
-  background-color: black;
+  background-color: rgb(202, 58, 58);
   color: white;
   outline: none;
-  border-radius: 5px;
+  border-radius: 20px;
+  border-color: white;
+  margin: 1rem;
 }
 
 button:hover {
   background-color: white;
-  color: black;
+  color: rgb(202, 58, 58);
 }
 
-footer {
-  background-color: gray;
-  padding: 1rem;
-  width: 100vh;
-  height: 5rem;
-  margin: 2rem;
-}
 
-.reuse-btn {
-  padding: 0.7rem;
-  margin-bottom: 2rem;
-  font-size: 1.5rem;
-  font-weight: 700;
-  background-color: magenta;
-  color: white;
-  outline: none;
-  border-radius: 5px;
-}
 
-.reuse-btn:hover {
-  background-color: white;
-  color: magenta;
-}
 
-.name {
-  color: purple;
-}
+
