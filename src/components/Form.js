@@ -7,6 +7,10 @@ const Form = () => {
             <form>
                 <label>Your Name</label>
                 <input></input>
+                <label>Your Email</label>
+                <input></input>
+                <label>your Message</label>
+                <input></input>
             </form>
         </div>
     );
