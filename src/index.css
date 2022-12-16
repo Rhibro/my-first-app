@@ -13,18 +13,20 @@ body {
   font-size: 1.2rem;
   font-weight: 400;
   height: 100%;
+  background-image: url(./images/forest.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .links {
   text-decoration: none;
   color: white;
   font-weight: 600;
+  margin: 1rem;
 }
 
 p {
   margin: 1rem;
-  display: flex;
-  align-items: center;
   color: black;
 }
 
@@ -84,12 +86,15 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+  background: rgb(255, 255, 255);
+  background: rgb(255, 255, 255, 0.5);
+ 
 }
 
 img {
   max-height: 600px;
   max-width: 400px;
-  margin: 1rem;
+  margin: 2rem;
 }
 
 /* Contact Styles */
@@ -110,7 +115,7 @@ img {
   align-items: center;
   flex-direction: column;
   margin: 1rem;
-  background-color: #924D1A;
+  background-color:#525E58;
   height: 400px;
   width: 300px;
   border-radius: 20px;
@@ -124,7 +129,7 @@ label {
 /* Modal Styles */
 
 .overlay {
-  background-color: #924D1A;
+  background-color: #525E58;
   border-radius: 20px;
   width: 20vw;
   height: 10vh;
@@ -144,7 +149,7 @@ label {
   width: 100%;
   height: 90px;
   margin: 0;
-  background-color: #924D1A;
+  background-color: #525E58;
   display: flex;
 }
 
@@ -162,15 +167,22 @@ label {
 .footer {
   width: 100%;
   max-height: 100px;
-  background-color: #924D1A;
+  background-color: #525E58;
   display: flex;
-  position:absolute;
-  left:0;
-  right:0;
+  position:relative;
+  margin-bottom: 0;
 }
 
 .footerList {
   list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+}
+
+.footerContact {
+  color: white;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -183,7 +195,7 @@ button {
   padding: 0.7rem;
   font-size: 1.5rem;
   font-weight: 700;
-  background-color: rgb(202, 58, 58);
+  background-color: #525E58;
   color: white;
   outline: none;
   border-radius: 20px;
@@ -193,7 +205,7 @@ button {
 
 button:hover {
   background-color: white;
-  color: rgb(202, 58, 58);
+  color: #525E58;
 }
 
 

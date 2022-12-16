@@ -21,10 +21,10 @@ const Footer = () => {
                     </Link>
                 </li>
                 <li>
-                    <p>Call Me: 012 345 67 89</p>
+                    <p className="footerContact">Call Me: 012 345 67 89</p>
                 </li>
                 <li>
-                    <p>Email Me: rhiannon@bron.com</p>
+                    <p className="footerContact">Email Me: rhiannon@bron.com</p>
                 </li>
             </ul>
         </nav>
