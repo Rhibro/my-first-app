@@ -1,11 +1,22 @@
-import Form from "./Form"
+import React, { useState } from "react";
+import Modal from "./Modal";
+import Form from "./Form";
 
-const Contact = () => {
+export default function Contact() {
+    const [status, setStatus] = useState(false);
+
         return (
-            <div className="container">
-                <Form />
+            <div>
+              <Form />
+              {status && (
+                <Modal closeModal={() => setStatus(false)}>
+                    <p>Hope you are enjoying your time!</p>
+                </Modal>
+              )} 
+                <div className="conatiner">
+                    <button onClick={() => setStatus(true)}>Open Modal</button>
+                </div>
             </div>
         );
     }
 
-export default Contact;

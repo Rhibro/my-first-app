@@ -2,14 +2,14 @@ import React from "react";
 
 const Form = () => {
     return (
-        <div className="container">
+        <div className="formPage">
             <h1>Contact Me</h1>
-            <form>
+            <form className="myForm">
                 <label>Your Name</label>
                 <input></input>
                 <label>Your Email</label>
                 <input></input>
-                <label>your Message</label>
+                <label>Your Message</label>
                 <input></input>
             </form>
         </div>

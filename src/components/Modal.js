@@ -1,9 +1,14 @@
-import { MDClose } from "react-icons/md";
+import { MdClose } from "react-icons/md";
 
-const Modal = ({close, children}) => {
+const Modal = ({closeModal, children}) => {
+    return (
     <div className="overlay">
-        <p>hi</p>
+        <div className="content">
+            <MdClose onClick={closeModal} />
+            {children}
+        </div>
     </div>
-}
+    );
+};
 
 export default Modal;
