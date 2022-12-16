@@ -10,11 +10,11 @@ export default function Contact() {
               <Form />
               {status && (
                 <Modal closeModal={() => setStatus(false)}>
-                    <p>Hope you are enjoying your time!</p>
+                    <p>Ring me Monday-Wednesday 9-13</p>
                 </Modal>
               )} 
                 <div className="conatinerContact">
-                    <button onClick={() => setStatus(true)}>Open Modal</button>
+                    <button onClick={() => setStatus(true)}>Book a Call</button>
                 </div>
             </div>
         );
