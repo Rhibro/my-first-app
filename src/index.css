@@ -99,6 +99,12 @@ img {
 
 /* Contact Styles */
 
+.contactLayout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .containerContact {
   margin: 2rem;
   display: flex;

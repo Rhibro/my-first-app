@@ -6,7 +6,7 @@ export default function Contact() {
     const [status, setStatus] = useState(false);
 
         return (
-            <div>
+            <div className="contactLayout">
               <Form />
               {status && (
                 <Modal closeModal={() => setStatus(false)}>
