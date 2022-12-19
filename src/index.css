@@ -183,6 +183,7 @@ label {
   max-height: 100px;
   background-color: #525E58;
   display: flex;
+  flex-wrap: wrap;
   position: sticky;
   margin-bottom: 0;
 }
