@@ -10,7 +10,7 @@ export default function Contact() {
               <Form />
               {status && (
                 <Modal closeModal={() => setStatus(false)}>
-                    <p>Ring me Monday-Wednesday 9-13</p>
+                    <p className="ringMe">Ring me Monday-Wednesday 9-13</p>
                 </Modal>
               )} 
                 <div className="conatinerContact">

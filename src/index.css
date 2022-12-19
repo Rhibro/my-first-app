@@ -122,14 +122,15 @@ img {
   flex-direction: column;
   margin: 1rem;
   background-color:#525E58;
-  height: 400px;
-  width: 300px;
+  height: 600px;
+  width: 500px;
   border-radius: 20px;
 }
 
 label {
   color: white;
   font-weight: 600;
+  font-size: 25px;
 }
 
 /* Modal Styles */
@@ -138,15 +139,20 @@ label {
   background-color: #525E58;
   border-radius: 20px;
   width: 20vw;
-  height: 10vh;
+  height: 15vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
   margin: 2rem;
 }
 
 .content {
-  color: black;
+  color: white;
+}
+
+.ringMe {
+  color: white;
 }
 
 /* Header Styles */
@@ -160,6 +166,7 @@ label {
 }
 
 .headerList {
+  font-size: 20px;
   display: flex;
   list-style: none;
   flex-wrap: wrap;
@@ -172,17 +179,19 @@ label {
 
 .footer {
   width: 100%;
+  height: 100%;
   max-height: 100px;
   background-color: #525E58;
   display: flex;
-  position:relative;
+  position: sticky;
   margin-bottom: 0;
 }
 
 .footerList {
+  font-size: 20px;
   list-style: none;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   flex-direction: row;
 }
@@ -193,6 +202,7 @@ label {
   justify-content: space-evenly;
   align-items: center;
   flex-direction: row;
+  font-weight: 600;
 }
 
 /* Button Styles */

@@ -1,5 +1,4 @@
-//import Header from "./Header";
-//import Footer from "./Footer";
+import { Link } from "react-router-dom";
 import ImageDisplay from "./ImageDisplay";
 import Button from "./Button";
 
@@ -10,7 +9,7 @@ const Home = () => {
         <h1>Rhiannon Brönnimann</h1>
         <p>I'm a Front End Developer based in Malmö, Sweden</p>
         <ImageDisplay />
-        <Button>Want to know more?</Button>
+        <Link to="/about"><Button>Want to know more?</Button></Link>
     </div>
     );
 };
