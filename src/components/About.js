@@ -1,5 +1,6 @@
-import camel from "../images/camel.JPG"
-import yoga from "../images/yoga.jpg"
+import camel from "../images/camel.JPG";
+import yoga from "../images/yoga.jpg";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 const About = () => {
     return (
@@ -11,8 +12,8 @@ const About = () => {
                 <p className="pTwo">I love yoga. I used to dance professionally but I find yoga a lot more sustainable for my body and overall well being. </p>              
             </div>
             <div className="imageBox">
-                <img src={camel} alt="Me beside a camel in the desert"></img>
-                <img src={yoga} alt="Me doing yoga"></img>
+                <img src={camel} alt="Me beside a camel in the desert" className="img-fluid"></img>
+                <img src={yoga} alt="Me doing yoga" className="img-fluid"></img>
             </div>
         </div>
         );

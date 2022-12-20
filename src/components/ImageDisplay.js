@@ -1,4 +1,5 @@
 import circle from "../images/circle.png";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 const ImageDisplay = () => {
     return (
@@ -11,7 +12,7 @@ const ImageDisplay = () => {
                 margin: "1rem",
             }}
         >
-            <img src={circle} alt="Me smiling" height={400} width={400}/>
+            <img src={circle} alt="Me smiling" height={400} width={400} className="img-fluid" />
         </div>    
     );
 };
