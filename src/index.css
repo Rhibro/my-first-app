@@ -101,6 +101,30 @@ img {
   margin: 2rem;
 }
 
+@media screen and (max-width: 1000px){
+
+  img {
+    max-width: 300px;
+    max-height: 500px;
+  }  
+}
+
+@media screen and (max-width: 863px){
+
+  img {
+    max-width: 200px;
+    max-height: 400px;
+  }  
+
+  .pOne {
+    width: 300px;
+  }
+
+  .pTwo {
+    width: 300px;
+  }
+}
+
 /* Contact Styles */
 
 .contactLayout {

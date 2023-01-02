@@ -25,7 +25,7 @@ function Form() {
                 <input type="text" name="name" value={email} onChange={handleInput} required />
                 <p style={{ color: "red"}}>{error && error}</p>
                 <label htmlFor="message">Your Message</label>
-                <textarea name="message" id="message" class="message-box" cols="30" rows="10" required></textarea>
+                <textarea name="message" id="message" class="message-box" cols="30" rows="5" required></textarea>
                 <button type="submit">Submit</button>
             </form>
         </div>
