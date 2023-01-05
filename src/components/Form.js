@@ -16,7 +16,7 @@ function Form() {
     };
 
     const submitHandler = (event) => {
-        event("Successfully submitted!");
+        event(alert("Successfully submitted!"));
     };
 
     return (
