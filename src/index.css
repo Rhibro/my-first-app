@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap");
 
 /* Over all styles */ 
 
@@ -9,16 +9,16 @@
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Julius Sans One', sans-serif;
   font-size: 1.2rem;
   font-weight: 400;
   height: 100%;
-  background-image: url(./images/forest.avif);
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: rgb(207,223,222);
+  background: linear-gradient(90deg, rgba(207,223,222,1) 33%, rgba(177,68,97,1) 51%, rgba(141,62,127,1) 80%);
 }
 
 .links {
+  font-family: 'Julius Sans One', sans-serif;
   text-decoration: none;
   color: white;
   font-weight: 600;
@@ -32,6 +32,7 @@ body {
 p {
   margin: 1rem;
   color: #2e3532;
+  font-family: 'Julius Sans One', sans-serif;
 }
 
 /* App Styles */
@@ -39,16 +40,17 @@ p {
 .container {
   margin: 2rem;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   flex-direction: column;
 }
 
 h1 {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   color: #2e3532;
+  font-family: 'Julius Sans One', sans-serif;
 }
 
 /* Home Styles */
