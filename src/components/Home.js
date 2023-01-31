@@ -1,15 +1,16 @@
-import { Link } from "react-router-dom";
+//import { Link } from "react-router-dom";
 import ImageDisplay from "./ImageDisplay";
-import Button from "./Button";
+import EducationImg from "./EducationImg";
 
 
 const Home = () => {
     return (
     <div className="containerHome">
-        <h1>Rhiannon Brönnimann</h1>
-        <p>I'm a Front End Developer based in Malmö, Sweden</p>
+        <h1 className="myName">Rhiannon Brönnimann</h1>
+        <p className="myTitle">Front End Developer</p>
+        <EducationImg />
         <ImageDisplay />
-        <Link to="/about"><Button>Want to know more?</Button></Link>
+        
     </div>
     );
 };
