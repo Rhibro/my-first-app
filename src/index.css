@@ -36,13 +36,48 @@ body {
   color: #000000;
 }
 
-.containerHome {
+/*.containerHome {
   margin-left: -120px;
   margin-top: 1rem;
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
   flex-direction: column;
+}*/
+
+.imgBox {
+  display: grid; 
+  grid-template-columns: 1.1fr 0.9fr 1fr; 
+  grid-template-rows: 0.5fr 1.3fr 1.2fr; 
+  gap: 0px 0px; 
+  grid-template-areas: 
+    ". . ."
+    "Education About Contact"
+    "Portfolio Portfolio Contact"; 
+}
+
+.About { 
+  grid-area: About;
+  width: 427px;
+  height: 377px;
+}
+
+.Portfolio {
+  grid-area: Portfolio;
+  width: 1015px;
+  height: 428px;
+}
+
+.Contact { 
+  grid-area: Contact;
+  width: 513px;
+  height: 785px; 
+}
+
+.Education { 
+  grid-area: Education;
+  width: 568px;
+  height: 377px;
 }
 
 /* About Styles */
@@ -50,19 +85,7 @@ body {
 
 /* Contact Styles */
 
-.contactLayout {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
-.containerContact {
-  margin: 2rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
 
 /* Form Styles */
 
@@ -107,20 +130,6 @@ label {
 .ringMe {
   color: white;
 }
-
-/* Header Styles */
-
-.header {
-  width: 100%;
-  height: 90px;
-  margin: 0;
-  background-color:#525E58;
-  background: rgb(82,94,88, 0.7);
-  display: flex;
-}
-
-
-
 
 /* Button Styles */
 
