@@ -1,10 +1,10 @@
-import portfolio from "../images/portfolio.png";
+import portfolio from "../images/case.svg";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 const PortfolioImg = () => {
     return (
         <div> 
-            <img src={portfolio} alt="Two people playing on a blue tennis court" height={428} width={1015} className="img-fluid Portfolio" />
+            <img src={portfolio} alt="a brifecase" height={230} width={230} className="img-fluid Portfolio" />
         </div>    
     );
 };

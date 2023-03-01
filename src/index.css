@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 
 /* Over all styles */ 
 
@@ -10,98 +10,60 @@
 
 body {
 
-  background: rgb(23,23,60);
-  background: linear-gradient(90deg, rgba(23,23,60,1) 33%, rgba(23,23,60,1) 51%, rgba(23,23,60,1) 80%);
-}
-
-
-.myTitle {
-  font-family: 'Julius Sans One';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 35px;
-  line-height: 40px;
-  color:#602BA8;
-  margin-left: -60px;
+  background: white;
   
 }
 
 .myName {
-  font-family: 'Julius Sans One';
+  font-family: 'Roboto Mono', monospace;
   font-style: normal;
   font-weight: 400;
-  font-size: 45px;
-  line-height: 50px;
-  color:#2ACFAB;
-  margin-left: -60px;
-  margin-top: 2rem;
+  font-size: 70px;
+  line-height: 92px;
+  text-align: center;
+  color: #000000;
+}
+
+.myTitle {
+  font-family: 'Roboto Mono', monospace;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 53px;
+  text-align: center;
+  color: #000000;
 }
 
 .containerHome{
-  background-image: url(../src/images/super.svg);
- background-size: cover ;
- background-repeat: no-repeat;
- height: 50rem;
- width: 100%;
+  margin-top: 6rem;
+  justify-content: center;
+  align-items: center;
 }
 
 .imgBox {
-  /*display: flex;
+  display: flex;
   flex-wrap: wrap;
-  height: 790px;
-  width: 1500px;
-  margin-left: -80px;*/
-  display: grid; 
-
-   grid-template-rows: 1fr 1fr 1fr;
-   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-   
-   gap: 0px;
-   height: 100%;
+  justify-content: center;
+  align-items: center;
 }
 
-.About { 
-  grid-row-start: 2;
-  grid-column-start: 3;
-
-  grid-row-end: 3;
-  grid-column-end: 4;
-  /*width: 400px;
-  height: 377px;*/
+.grouping {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
 }
 
-.Portfolio {
-  grid-row-start: 2;
-   grid-column-start: 4;
-
-   grid-row-end: 4;
-   grid-column-end: 6;
-
-
-  /*width: 900px;
-  height: 428px;*/
-}
-
-.Contact { 
-   grid-row-start: 3;
-   grid-column-start: 1;
-
-   grid-row-end: 4;
-   grid-column-end: 4;
- 
-  /*width: 450px;
-  height: 785px; */
-}
-
-.Education { 
-  grid-row-start: 2;
-  grid-column-start: 1;
-
-  grid-row-end: 3;
-  grid-column-end: 3;
-  
- /* width: 500px;
-  height: 400px;*/
+.imgTitle {
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 53px;
+  text-align: center;
+  color: #000000;
 }
 
 /* About Styles */
@@ -173,6 +135,18 @@ button:hover {
   background-color: white;
   color: #525E58;
 }*/
+
+.reuseBtn {
+  border: none;
+  background-color: white;
+  margin: 1rem;
+  transition-duration: 1s;
+}
+
+.reuseBtn:hover {
+  background-color: rgb(191, 186, 186);
+  border-radius: 50px;
+}
 
 
 

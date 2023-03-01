@@ -1,11 +1,11 @@
-import aboutme from "../images/aboutme.png";
+import aboutme from "../images/game.svg";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 const AboutImg = () => {
     return (
         <div
         >
-            <img src={aboutme} alt="a light pink flower on a dark pink background" height={377} width={427} className="img-fluid About" />
+            <img src={aboutme} alt="a game controller" height={230} width={230} className="img-fluid About" />
         </div>    
     );
 };

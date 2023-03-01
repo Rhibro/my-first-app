@@ -1,11 +1,11 @@
-import education from "../images/education.png";
+import education from "../images/notebook.svg";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 const EducationImg = () => {
     return (
         <div
         >
-            <img src={education} alt="A blue cup of coffee on an empty table" height={377} width={568} className="img-fluid Education" />
+            <img src={education} alt="a notebook" height={230} width={230} className="img-fluid Education" />
         </div>    
     );
 };
