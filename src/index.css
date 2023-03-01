@@ -14,6 +14,8 @@ body {
   
 }
 
+/* Home Styles */
+
 .myName {
   font-family: 'Roboto Mono', monospace;
   font-style: normal;
@@ -68,6 +70,13 @@ body {
 
 /* About Styles */
 
+h1 {
+  color: #000000;
+}
+
+/* Education Styles */
+
+/* Portfolio Styles */
 
 /* Contact Styles */
 
@@ -94,47 +103,8 @@ label {
   font-size: 25px;
 }
 
-/* Modal Styles 
 
-.overlay {
-  background-color:#525E58;
-  background: rgb(82,94,88, 0.7);
-  border-radius: 20px;
-  width: 20vw;
-  height: 15vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  margin: 2rem;
-}
-
-.content {
-  color: white;
-}
-
-.ringMe {
-  color: white;
-}*/
-
-/* Button Styles 
-
-button {
-  padding: 0.7rem;
-  font-size: 1.5rem;
-  font-weight: 700;
-  background-color: #525E58;
-  color: white;
-  outline: none;
-  border-radius: 20px;
-  border-color: white;
-  margin: 1rem;
-}
-
-button:hover {
-  background-color: white;
-  color: #525E58;
-}*/
+/* Button Styles */
 
 .reuseBtn {
   border: none;
