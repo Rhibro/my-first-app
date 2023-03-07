@@ -144,13 +144,14 @@ body {
   justify-content: flex-start;
   align-items: center;
   margin: 2rem;
+  align-self: flex-start;
 }
 
 .education {
   font-family: 'Roboto Mono';
   font-style: normal;
   font-weight: 400;
-  font-size: 4.5rem;
+  font-size: 3.5rem;
   line-height: 92px;
   text-align: center;
   color: #000000;
@@ -169,6 +170,11 @@ body {
   border: 9px solid #000000;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 20px;
+  margin: .5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .schoolName {
@@ -199,6 +205,7 @@ body {
   line-height: 26px;
   text-align: center;
   color: #000000;
+  margin: .5rem;
 }
 
 .schoolLink {

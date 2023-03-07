@@ -1,7 +1,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 //import Button from "./Button";
 import EducationImg from "./EducationImg";
-import circle from "../images/circle.png"
+import { Link } from "react-router-dom";
 
 const Education = () => {
     return (
@@ -24,9 +24,13 @@ const Education = () => {
                         of: programing foundations, programming in depth, responsive web design, 
                         accessible web design, individual & group projects.
                     </p>
-                    <p className="schoolLink">
-                        More Information
-                    </p>
+                   <div>
+                        <Link to={{pathname:
+                            "https://sundsgarden.se/utbildningar-kurser/langa-kurser/distanskurser/it-tech-for-women/"}}
+                            target="_blank" className="schoolLink">
+                            More Information
+                        </Link>
+                   </div>
                </div>
                <div className="eduBox">
                     <h1 className="schoolName">
@@ -40,9 +44,13 @@ const Education = () => {
                         the body, History of Ashtanga practice, and adjustments. Must be able to give 
                         clear instructions to complex positions.
                     </p>
-                    <p className="schoolLink">
-                        More Information
-                    </p>
+                    <div>
+                        <Link to={{pathname:
+                            "https://downwarddog.com/teacher-training/200hr-program-objectives/"}}
+                            target="_blank" className="schoolLink">
+                            More Information
+                        </Link>
+                    </div>
                </div>
                <div className="eduBox">
                     <h1 className="schoolName">
@@ -56,9 +64,13 @@ const Education = () => {
                         emphasis on physical movement, writing, collaborations with large 
                         ensembles, set design, and devised creation.
                     </p>
-                    <p className="schoolLink">
-                        More Information
-                    </p>
+                    <div>
+                   <Link to={{pathname:
+                            "https://humber.ca/"}}
+                            target="_blank" className="schoolLink">
+                            More Information
+                        </Link>
+                   </div>
                </div>
             </div>
         </div>
@@ -66,3 +78,28 @@ const Education = () => {
     };
     
     export default Education;
+
+    /* 
+                    <Link to={{pathname:
+                        "https://sundsgarden.se/utbildningar-kurser/langa-kurser/distanskurser/it-tech-for-women/"}}
+                        target="_blank" className="schoolLink">
+                        More Information
+                    </Link>
+    
+                    <Link to={{pathname:
+                        "https://downwarddog.com/teacher-training/200hr-program-objectives/"}}
+                        target="_blank" className="schoolLink">
+                        More Information
+                    </Link>
+    
+                    <div>
+                   <Link to={{pathname:
+                            "https://mediaarts.humber.ca/programs/theatre-arts-performance.html?year=2020&avail=0&pre_year=2021/"}}
+                            target="_blank" className="schoolLink">
+                            More Information
+                        </Link>
+                   </div>
+    
+    
+    
+    */
