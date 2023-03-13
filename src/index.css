@@ -220,6 +220,92 @@ body {
 
 /* Portfolio Styles */
 
+.portBody {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.portTitleBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 2rem;
+  align-self: flex-start;
+}
+
+.portfolio {
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3.5rem;
+  line-height: 92px;
+  text-align: center;
+  color: #000000;
+}
+
+.portInfoBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+}
+
+.portBox {
+  background: #C89005;
+  border: 9px solid #000000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  margin: .5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.webEx {
+  width: 335px;
+  height: 205px;
+  margin: .5rem;
+  border: 2px solid black;
+}
+
+.webEx:hover {
+  border: 3px solid black;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.portjectName {
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 40px;
+  text-align: center;
+  color: #000000;
+}
+
+.portInfo {
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  text-align: center;
+  color: #000000;
+  margin: .5rem;
+}
+
+
+
 /* Contact Styles */
 
 
@@ -269,6 +355,16 @@ label {
 }
 
 @media screen and (max-width: 500px) {
+
+  .myName {
+    font-size: 50px;
+    line-height: 60px;
+  }
+
+  .myTitle {
+    font-size: 30px;
+    line-height: 40px;
+  }
   
   .aboutMe {
     font-size: 3rem;

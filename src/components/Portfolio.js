@@ -19,6 +19,7 @@ const Portfolio = () => {
                         <img className="webEx" src={bhro}></img>
                     </Link>
                 </div>
+                <div className="content" >
                     <h1 className="porjectName">
                             12-hour-test
                     </h1>
@@ -27,6 +28,7 @@ const Portfolio = () => {
                         a completely responsive web-page down to 
                         the smallest screen size of 320px.
                     </p>
+                </div>
                </div>
                <div className="portBox">
                 <div>
@@ -34,6 +36,7 @@ const Portfolio = () => {
                         <img className="webEx" src={gen}></img>
                     </Link>
                 </div>
+                <div className="content" >
                     <h1 className="porjectName">
                             genesis-design
                     </h1>
@@ -42,6 +45,7 @@ const Portfolio = () => {
                         and CSS Grid to organize the unique layout (looks best at 
                         1200px or higher).
                     </p>
+                </div>
                </div>
                <div className="portBox">
                 <div>
@@ -49,6 +53,7 @@ const Portfolio = () => {
                         <img className="webEx" src={spaceGarden}></img>
                     </Link>
                 </div>
+                <div className="content" >
                     <h1 className="porjectName">
                             space-theme
                     </h1>
@@ -56,6 +61,7 @@ const Portfolio = () => {
                         As a group we were given the challenge of creating a
                         website based on a word “space” and a HEX colour code.
                     </p>
+                    </div>
                </div>
             </div>
         </div>

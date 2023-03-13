@@ -4,7 +4,6 @@ import EducationImg from "./EducationImg";
 import AboutImg from "./AboutImg";
 import ContactImg from "./ContactImg";
 import Button  from "./Button";
-//import About from "./About";
 
 
 const Home = () => {
@@ -31,7 +30,7 @@ const Home = () => {
                     <p className="imgTitle">portfolio</p>
                 </Button>
             </Link>
-            <Link path="/Contact">
+            <Link to="/Contact">
                 <Button className="grouping">
                     <ContactImg />
                     <p className="imgTitle">contact</p>
