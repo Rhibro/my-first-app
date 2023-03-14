@@ -3,7 +3,7 @@
 //import Form from "./Form";
 import "bootstrap/dist/css/bootstrap.min.css";
 import ContactImg from "./ContactImg";
-import { Link } from "react-router-dom";
+import Form  from "./Form";
 
 const Contact = () => {
     
@@ -14,7 +14,7 @@ const Contact = () => {
                     <ContactImg />
                     <h1 className="contact">contact</h1>
                 </div>
-                <p>Hi</p>
+                <Form />
             </div>
         );
     }

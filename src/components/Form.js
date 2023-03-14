@@ -40,18 +40,11 @@ function Form() {
 
     return (
         <div className="formPage">
-            <h1>Contact Me</h1>
-            <form onSubmit={submitHandler} className="myForm">
-                <label htmlFor="name">Your Name</label>
-                <input 
-                    type="text" 
-                    name="name" 
-                    value={person.fullName}
-                    onChange={handleInput}
-                    required>
-                </input>
 
-                <label htmlFor="email">Your Email</label>
+            <form onSubmit={submitHandler} className="myForm">
+                
+
+                <label htmlFor="email">email:</label>
                 <input 
                     type="text" 
                     name="email" 
@@ -61,7 +54,7 @@ function Form() {
                 />
                 <p style={{ color: "red"}}>{error && error}</p>
                 
-                <label htmlFor="message">Your Message</label>
+                <label htmlFor="message">message:</label>
                 <textarea 
                 name="message" 
                 id="message" 
@@ -74,13 +67,12 @@ function Form() {
                 </textarea>
                
                 <button type="submit" className="formBtn">
-                    Submit
+                    submit
                 </button>
                {message.localeCompare((msg) => {
-                const {fullName, email, message} = msg;
+                const {email, message} = msg;
                 return (
                     <div>
-                        <h4>{fullName}</h4>
                         <p>{email}</p>
                         <p>{message}</p>
                     </div>
