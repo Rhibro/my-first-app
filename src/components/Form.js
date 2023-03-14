@@ -1,5 +1,7 @@
 import React from "react";
 import { useState } from "react";
+import github from "../images/github 1.png";
+import linked from "../images/linkedin 1.png";
 
 function Form() {
     const [person, setPerson] = useState({
@@ -78,6 +80,10 @@ function Form() {
                     </div>
                 );
                })}
+                <div>
+                    <img className="social" src={github}></img>
+                    <img className="social" src={linked}></img>
+                </div>
             </form>
         </div>
     )
