@@ -59,7 +59,7 @@ function Form() {
                 name="message" 
                 id="message" 
                 className="message-box" 
-                cols="30" 
+                cols="20" 
                 rows="5" 
                 value={person.message}
                 onChange={handleInput}

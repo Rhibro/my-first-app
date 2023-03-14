@@ -1,6 +1,4 @@
 //import React, { useState } from "react";
-//import Modal from "./Modal";
-//import Form from "./Form";
 import "bootstrap/dist/css/bootstrap.min.css";
 import ContactImg from "./ContactImg";
 import Form  from "./Form";
