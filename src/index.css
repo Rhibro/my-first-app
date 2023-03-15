@@ -343,7 +343,7 @@ body {
   justify-content: space-evenly;
   align-items: flex-start;
   flex-direction: column;
-  margin: 1rem;
+  margin: 3rem;
   background: #6FB0BE;
   border: 9px solid #000000;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -374,13 +374,16 @@ input {
   font-size: 35px;
   line-height: 46px;
   align-self: center;
+  height: 7vh;
+  width: 27vw;
 }
 
 textarea {
   background-color: #F2E5CA;
   border: 9px solid #000000;
   margin: 1rem;
-  margin-left: 5rem;
+  height: 20vh;
+  width: 27vw;
   color: black;
   font-family: 'Roboto Mono';
   font-style: normal;
@@ -391,7 +394,7 @@ textarea {
 }
 
 .formBtn {
-  background-color: #6FB0BE;
+  background-color: #F2E5CA;
   border: 9px solid #000000;
   width: 150px;
   height: 75px;
@@ -401,16 +404,21 @@ textarea {
   font-size: 30px;
   line-height: 40px;
   text-align: center;
-  color: #F2E5CA;
+  color: black;
   align-self: center;
   margin: 1rem;
+  border-radius: 20px;
 }
 
 .formBtn:hover {
-  background-color: #F2E5CA;
-  color: #6FB0BE;
+  background-color:#6FB0BE;
+  color:  black;
+  border: 9px solid #F2E5CA;
 }
 
+.social {
+  color: #000000;
+}
 
 /* Button Styles */
 
@@ -422,7 +430,7 @@ textarea {
 }
 
 .reuseBtn:hover {
-  background-color: rgb(191, 186, 186);
+  background-color: rgb(219, 215, 215);
   border-radius: 50px;
 }
 

@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
-import github from "../images/github 1.png";
-import linked from "../images/linkedin 1.png";
+import github from "../images/github.svg";
+import linked from "../images/linkedin.svg";
 
 function Form() {
     const [person, setPerson] = useState({
@@ -61,7 +61,7 @@ function Form() {
                 name="message" 
                 id="message" 
                 className="message-box" 
-                cols="20" 
+                cols="30" 
                 rows="5" 
                 value={person.message}
                 onChange={handleInput}
