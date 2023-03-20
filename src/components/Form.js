@@ -1,11 +1,10 @@
 import React from "react";
 import { useState } from "react";
-import github from "../images/github.svg";
-import linked from "../images/linkedin.svg";
+//import github from "../images/github.svg";
+//import linked from "../images/linkedin.svg";
 
 function Form() {
     const [person, setPerson] = useState({
-        fullName: "",
         email: "",
         message: "",
     });
@@ -13,17 +12,17 @@ function Form() {
     const [error, setError] = useState("");
 
     const handleInput = (e) => {
-        const fullName = e.target.fullName;
+        const email = e.target.email;
         const value = e.target.value;
 
-        setPerson({...person, [fullName]: value});
+        setPerson({...person, [email]: value});
 
     };
 
     const submitHandler = (e) => {
         e.preventDefault();
         
-        if (person.fullName && person.email && person.message === "") {
+        if (person.email && person.message === "") {
             setError("All fields are required!");
         } else {
             setError("");
@@ -34,7 +33,6 @@ function Form() {
         setMessage(...message, newMessage);
 
         setPerson({
-            fullName: "",
             email: "",
             message: "",
         })
@@ -81,8 +79,7 @@ function Form() {
                 );
                })}
                 <div>
-                    <img className="social" src={github}></img>
-                    <img className="social" src={linked}></img>
+                
                 </div>
             </form>
         </div>
@@ -90,3 +87,8 @@ function Form() {
 }
 
 export default Form;
+
+/* 
+<FontAwesomeIcon icon="fa-brands fa-square-github" />
+<FontAwesomeIcon icon="fa-brands fa-linkedin" />
+*/

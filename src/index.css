@@ -436,10 +436,113 @@ textarea {
 
 /* Media Quieries */
 
+@media screen and (max-width: 1200px) {
+
+  .portBody {
+    flex-direction: column;
+   }
+
+  .portTitleBox {
+    align-self: center;
+  }
+
+}
+
+@media screen and (max-width: 1000px)  {
+
+  .contactBody {
+    flex-direction: column;
+  }
+
+  .myForm {
+    height: 60vh;
+    width: 70vw;
+  }
+
+  textarea {
+    height: 20vh;
+    width: 40vw;
+  }
+
+  input {
+    height: 7vh;
+    width: 40vw;
+  }
+
+}
+
 @media screen and (max-width: 992px) {
  .aboutBody {
   flex-direction: column;
  }
+
+ .eduBody {
+  flex-direction: column;
+ }
+
+ .eduTitleBox {
+  justify-content: center;
+  align-self: center;
+ }
+
+ .webEx {
+  width: 235px;
+  height: 150px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+  }
+
+}
+
+@media screen and (max-width: 900px) {
+
+  .myForm {
+    height: 70vh;
+    width: 70vw;
+  }
+
+  textarea {
+    height: 20vh;
+    width: 40vw;
+  }
+
+  input {
+    height: 7vh;
+    width: 40vw;
+  }
+  
+}
+
+
+@media screen and (max-width: 768px) {
+
+  .portBox {
+    flex-direction: column;
+  }
+
+  .portInfo {
+    margin: 1rem;
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+
+  .eduInfo {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .portInfo {
+    font-size: 15px;
+    line-height: 19px;
+  }
+
+  .portBox {
+    margin: .5rem;
+  }
+
 }
 
 @media screen and (max-width: 500px) {
@@ -463,6 +566,12 @@ textarea {
     font-size: 1rem;
     line-height: 30px;
   }
+
+  .portfolio {
+    font-size: 2.5rem;
+    line-height: 92px;
+  }
+
  }
 
  @media screen and (max-width: 400px) {
@@ -470,6 +579,31 @@ textarea {
   .myFace {
     height: 10rem;
     width: 10rem;
+  }
+
+  .schoolName {
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  .timePlace {
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .eduInfo {
+    font-size: 14px;
+    line-height: 19px;
+  }
+
+  .schoolLink {
+    font-size: 13px;
+    line-height: 19px;
+  }
+
+  .webEx {
+    width: 200px;
+    height: 100px;
   }
 
  }
