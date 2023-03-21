@@ -4,6 +4,7 @@ import AboutImg from "./AboutImg";
 import circle from "../images/circle.png"
 
 const About = () => {
+
     return (
         <div className="aboutBody">
             <div className="aboutTitleBox">
