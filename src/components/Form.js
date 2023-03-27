@@ -25,20 +25,22 @@ function Form() {
           <label htmlFor="email">
             email:
           </label>
-          <input  type="email" id="email" required />
+          <input className="inPut" type="email" id="email" required />
         </div>
         <div>
           <label htmlFor="message">
             message:
           </label>
-          <textarea id="message" required />
+          <textarea className="textArea" id="message" required />
         </div>
         <button className="formBtn" type="submit">
           {formStatus}
         </button>
         <div className="socialGroup">
-          <img className="social" src={github} alt="github icon" ></img>
-          <img className="social" src={linkedin} alt="linkedin icon" ></img>
+          <a className="socialBtnOne" href="https://github.com/Rhibro" target="_blank" rel="noopener noreferrer">
+            <img className="social" src={github} alt="github icon" ></img></a> 
+          <a className="socialBtnTwo" href="https://www.linkedin.com/in/rhiannon-br%C3%B6nnimann-a1a888a0/" target="_blank" rel="noopener noreferrer">
+          <img className="social" src={linkedin} alt="linkedin icon" ></img></a>
         </div>
       </form>
     </div>
