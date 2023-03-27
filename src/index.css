@@ -380,7 +380,7 @@ input {
 textarea {
   background-color: #F2E5CA;
   border: 9px solid #000000;
-  margin: 1rem;
+  margin: 2rem;
   height: 20vh;
   width: 27vw;
   color: black;
@@ -389,7 +389,6 @@ textarea {
   font-weight: 400;
   font-size: 35px;
   line-height: 46px;
-  align-self: center;
 }
 
 .formBtn {
@@ -415,8 +414,15 @@ textarea {
   border: 9px solid black;
 }
 
+.socialGroup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .social {
   color: #000000;
+  margin: 1rem;
 }
 
 /* Button Styles */

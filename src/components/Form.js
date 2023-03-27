@@ -1,4 +1,6 @@
 import React from "react";
+import github from "../images/github.png";
+import linkedin from "../images/linkedin.png";
 //import { useState } from "react";
 //import github from "../images/github.svg";
 //import linked from "../images/linkedin.svg";
@@ -34,6 +36,10 @@ function Form() {
         <button className="formBtn" type="submit">
           {formStatus}
         </button>
+        <div className="socialGroup">
+          <img className="social" src={github} alt="github icon" ></img>
+          <img className="social" src={linkedin} alt="linkedin icon" ></img>
+        </div>
       </form>
     </div>
   )
