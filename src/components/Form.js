@@ -1,10 +1,46 @@
 import React from "react";
-import { useState } from "react";
+//import { useState } from "react";
 //import github from "../images/github.svg";
 //import linked from "../images/linkedin.svg";
 
 function Form() {
-    const [person, setPerson] = useState({
+
+  const [formStatus, setFormStatus] = React.useState('Send')
+  const onSubmit = (e) => {
+    e.preventDefault()
+    setFormStatus('Submitting...')
+    const { email, message } = e.target.elements
+    let conFom = {
+      email: email.value,
+      message: message.value,
+    }
+    console.log(conFom)
+  }
+  return (
+    <div className="myForm">
+      <form onSubmit={onSubmit}>
+        <div>
+          <label htmlFor="email">
+            email:
+          </label>
+          <input  type="email" id="email" required />
+        </div>
+        <div>
+          <label htmlFor="message">
+            message:
+          </label>
+          <textarea id="message" required />
+        </div>
+        <button className="formBtn" type="submit">
+          {formStatus}
+        </button>
+      </form>
+    </div>
+  )
+}
+
+
+   /* const [person, setPerson] = useState({
         email: "",
         message: "",
     });
@@ -83,8 +119,8 @@ function Form() {
                 </div>
             </form>
         </div>
-    )
-}
+    )*/
+
 
 export default Form;
 

@@ -339,7 +339,7 @@ body {
 .myForm {
   display: flex;
   justify-content: space-evenly;
-  align-items: flex-start;
+  align-items: center;
   flex-direction: column;
   margin: 3rem;
   background: #6FB0BE;
@@ -372,6 +372,7 @@ input {
   font-size: 35px;
   line-height: 46px;
   align-self: center;
+  margin-left: 5rem;
   height: 7vh;
   width: 27vw;
 }
@@ -411,7 +412,7 @@ textarea {
 .formBtn:hover {
   background-color:#6FB0BE;
   color:  black;
-  border: 9px solid #F2E5CA;
+  border: 9px solid black;
 }
 
 .social {
