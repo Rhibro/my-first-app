@@ -8,15 +8,17 @@ import bhro from "../images/bhro.png";
 const Portfolio = () => {
     return (
         <div className="portBody">
-            <div className="portTitleBox">
-                <PortfolioImg />
-                <h1 className="portfolio">portfolio</h1>
-            </div>
+            <Link className="homeLink" to="/">
+                <div className="portTitleBox">
+                    <PortfolioImg />
+                    <h1 className="portfolio">portfolio</h1>
+                </div>
+            </Link>
             <div className="portInfoBox">
                <div className="portBox">
                 <div>
                     <Link to="/bhro">
-                        <img className="webEx" src={bhro}></img>
+                        <img className="webEx" src={bhro} alt="example of 12 hour test webpage"></img>
                     </Link>
                 </div>
                 <div className="content" >
@@ -33,7 +35,7 @@ const Portfolio = () => {
                <div className="portBox">
                 <div>
                     <Link to="/gen">
-                        <img className="webEx" src={gen}></img>
+                        <img className="webEx" src={gen} alt="example of genesis design webpage"></img>
                     </Link>
                 </div>
                 <div className="content" >
@@ -49,8 +51,8 @@ const Portfolio = () => {
                </div>
                <div className="portBox">
                 <div>
-                    <Link to="/">
-                        <img className="webEx" src={spaceGarden}></img>
+                    <Link to="/spacegarden">
+                        <img className="webEx" src={spaceGarden} alt="example of space theme webpage"></img>
                     </Link>
                 </div>
                 <div className="content" >

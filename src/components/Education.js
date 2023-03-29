@@ -6,10 +6,12 @@ import { Link } from "react-router-dom";
 const Education = () => {
     return (
         <div className="eduBody">
+            <Link className="homeLink" to="/">
             <div className="eduTitleBox">
                 <EducationImg />
                 <h1 className="education">education</h1>
             </div>
+            </Link>
             <div className="eduInfoBox">
                <div className="eduBox">
                     <h1 className="schoolName">

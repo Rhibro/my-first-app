@@ -1,4 +1,5 @@
 //import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import ContactImg from "./ContactImg";
 import Form  from "./Form";
@@ -8,10 +9,12 @@ const Contact = () => {
 
         return (
             <div className="contactBody">
+                <Link className="homeLink" to="/">
                  <div className="contactTitleBox">
                     <ContactImg />
                     <h1 className="contact">contact</h1>
                 </div>
+                </Link>
                 <Form />
             </div>
         );
