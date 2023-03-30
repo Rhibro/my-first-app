@@ -591,6 +591,11 @@ label {
     font-size: 30px;
     line-height: 40px;
   }
+
+  .reuseBtn {
+    height: 42vh;
+    width: 42vw;
+  }
   
   .aboutMe {
     font-size: 3rem;
@@ -615,6 +620,25 @@ label {
 
  @media screen and (max-width: 400px) {
 
+  .myName {
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  .myTitle {
+    font-size: 25px;
+    line-height: 35px;
+  }
+  
+  .reuseBtn {
+    height: 30vh;
+    width: 30vw;
+  }
+
+  .imgTitle {
+    font-size: 20px;
+  }
+  
   .myFace {
     height: 10rem;
     width: 10rem;
