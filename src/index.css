@@ -488,7 +488,8 @@ label {
 }
 
 @media screen and (max-width: 992px) {
- .aboutBody {
+ 
+  .aboutBody {
   flex-direction: column;
  }
 
@@ -514,7 +515,7 @@ label {
 @media screen and (max-width: 900px) {
 
   .myForm {
-    height: 70vh;
+    height: 80vh;
     width: 70vw;
   }
 
@@ -528,6 +529,15 @@ label {
     width: 40vw;
   }
   
+}
+
+@media screen and (max-width: 700px) {
+  
+  .myForm {
+    height: 90vh;
+    width: 70vw;
+  }
+
 }
 
 
@@ -560,7 +570,7 @@ label {
   }
 
   .myForm {
-    height: 80vh;
+    height: 110vh;
     width: 70vw;
   }
 
@@ -614,6 +624,11 @@ label {
 
   label {
     margin-left: 2rem;
+    font-size: 30px;
+  }
+
+  .formBtn{
+    font-size: 25px;
   }
 
  }
@@ -674,25 +689,40 @@ label {
     line-height: 92px;
   }
 
-
   .myForm {
     height: 100vh;
     width: 70vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  label {
+    margin: .5rem;
   }
 
   .textArea {
     height: 30vh;
     width: 50vw;
+    margin: .5rem;
   }
 
   .inPut {
     height: 9vh;
     width: 50vw;
+    margin: .5rem;
   }
 
   .social {
     height: 70px;
     width: 70px;
+  }
+
+  .formBtn{
+    width: 170px;
+    height: 75px;
+    margin-left: 1rem;
   }
 
  }
