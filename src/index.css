@@ -107,7 +107,7 @@ body {
 
 .aboutInfoBox {
   background: #00B2AE;
-  border: 9px solid #000000;
+  border: 5px solid #000000;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 20px;
   display: flex;
@@ -121,19 +121,19 @@ body {
 .myFace {
   width: 15rem;
   height: 15rem;
-  border: 9px solid black;
+  border: 5px solid black;
   border-radius: 50%;
-  margin: 2rem;
+  margin-top: 1.5rem;
 }
 
 .aboutInfo {
   font-family: 'Roboto Mono';
   font-style: normal;
   font-weight: 400;
-  font-size: 2rem;
-  line-height: 53px;
+  font-size: 1.2rem;
+  line-height: 33px;
   color: #000000;
-  margin: 1rem;
+  margin: 1.5rem;
   text-align: center;
 }
 
@@ -143,6 +143,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 .eduTitleBox {
@@ -174,7 +175,7 @@ body {
 
 .eduBox {
   background: #FAC546;
-  border: 9px solid #000000;
+  border: 5px solid #000000;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 20px;
   margin: .5rem;
@@ -192,6 +193,7 @@ body {
   line-height: 40px;
   text-align: center;
   color: #000000;
+  margin-top: 1.5rem;
 }
 
 .timePlace {
@@ -223,6 +225,7 @@ body {
   line-height: 26px;
   text-align: center;
   color: #000000;
+  margin: 1.5rem;
 }
 
 /* Portfolio Styles */
@@ -231,6 +234,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 .portTitleBox {
@@ -254,7 +258,7 @@ body {
 
 .portInfoBox {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   margin: 2rem;
@@ -262,13 +266,15 @@ body {
 
 .portBox {
   background: #C89005;
-  border: 9px solid #000000;
+  border: 5px solid #000000;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 20px;
   margin: .5rem;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  max-width: 400px;
  
 }
 
@@ -277,6 +283,7 @@ body {
   height: 205px;
   margin: .5rem;
   border: 2px solid black;
+  border-radius: 5%;
 }
 
 .webEx:hover {
@@ -294,7 +301,7 @@ body {
   font-family: 'Roboto Mono';
   font-style: normal;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 10px;
   line-height: 35px;
   text-align: center;
   color: #000000;
@@ -308,7 +315,9 @@ body {
   line-height: 20px;
   text-align: center;
   color: #000000;
-  margin: .5rem;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 /* Contact Styles */
@@ -346,7 +355,7 @@ body {
   flex-direction: column;
   margin: 3rem;
   background: #6FB0BE;
-  border: 9px solid #000000;
+  border: 5px solid #000000;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 20px;
   height: 93vh;
@@ -366,7 +375,7 @@ label {
 
 .inPut {
   background-color: #F2E5CA;
-  border: 9px solid #000000;
+  border: 5px solid #000000;
   margin-left: 2rem;
   color: black;
   font-family: 'Roboto Mono';
@@ -380,7 +389,7 @@ label {
 
 .textArea {
   background-color: #F2E5CA;
-  border: 9px solid #000000;
+  border: 5px solid #000000;
   margin-left: 2rem;
   height: 20vh;
   width: 27vw;
@@ -394,7 +403,7 @@ label {
 
 .formBtn {
   background-color: #F2E5CA;
-  border: 9px solid #000000;
+  border: 5px solid #000000;
   width: 200px;
   height: 75px;
   font-family: 'Roboto Mono';

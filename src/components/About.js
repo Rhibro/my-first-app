@@ -17,8 +17,13 @@ const About = () => {
             <div className="aboutInfoBox">
                 <img className="myFace" src={circle} alt="a head shot of my face smiling"></img>
                 <p className="aboutInfo">
-                    Born and raised in Toronto, Canada I now call Malmö, Sweden home.
-                    If the future is tech then I want to make that future as accessible as possible for all.
+                Born and raised in Toronto, Canada I now call Malmö, Sweden home.
+                I am a recent graduate from Sundsgården Folkhögskolas I.T Tech for Women Program. 
+                The program has not only given me an in-depth understanding of CSS, HTML, JavaScript,
+                 and React but has also taught me how vital it is to work in groups. I have a special 
+                 interest in accessible design because I feel the whole purpose of technology is to 
+                 make the world as accessible as possible for everyone. I’m looking for opportunities
+                  where I can learn and develop new skills (i.e Full-stack, UI/UX).    
                 </p>
             </div>
         </div>
