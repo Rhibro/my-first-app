@@ -242,6 +242,10 @@ body {
   margin: 2rem;
 }
 
+.schoolLink:hover {
+  color: #E24F32;
+}
+
 /* Portfolio Styles */
 
 .portBody {
@@ -337,6 +341,9 @@ body {
   background-color: #ffffff68;
   border-radius: 20px;
 }
+
+/* Spacegarden Styles */
+
 /* Contact Styles */
 
 .contactBody {
@@ -591,6 +598,10 @@ label {
 
   .portInfo {
     margin: 1rem;
+  }
+
+  .eduTitleBox {
+    flex-direction: column;
   }
 
 }

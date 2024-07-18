@@ -21,11 +21,10 @@ const Education = () => {
                         Sept 2024 - June 2026 || Malmö, Sweden
                     </p>
                     <p className="eduInfo">
-                        In this two-year training, you focus on becoming proficient in web development with a 
-                        particular focus on Javascript, but also Typescript, which is used for both frontend
-                        and backend development. The program also gives you in-depth knowledge in technical 
-                        frameworks such as React.js, Vue.js, backend development in Node.js to create APIs,
-                        and work against different databases.
+                        In this two-year training the goal is to become proficient in web development with a 
+                        particular focus on Javascript and Typescript. The program also gives you in-depth 
+                        knowledge in technical frameworks such as React.js, Vue.js, backend development in 
+                        Node.js to create APIs, and work against different databases.
                     </p>
                     <div>
                         <Link to={{pathname:
@@ -44,7 +43,7 @@ const Education = () => {
                     </p>
                     <p className="eduInfo">
                         This course has a focus on the subject of Swedish as a second language. 
-                        The study program also includes course in contemporary Swedish history,
+                        The program includes contemporary Swedish history,
                         academic writing, and work themed projects.   
                     </p>
                     <div>

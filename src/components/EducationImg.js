@@ -3,8 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 const EducationImg = () => {
     return (
-        <div
-        >
+        <div>
             <img src={education} alt="a notebook" height={230} width={230} className="img-fluid Education" />
         </div>    
     );
