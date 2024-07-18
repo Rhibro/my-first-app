@@ -9,9 +9,14 @@
 }
 
 body {
-
   background: white;
-  
+}
+
+.containerHome {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .homeLink {
@@ -20,7 +25,13 @@ body {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  margin: 2rem;
+  margin: 3rem;
+}
+
+.homeLink:hover {
+  background-color: rgb(219, 215, 215);
+  border-radius: 50px;
+  transition-duration: 1s;
 }
 
 /* Home Styles */
@@ -148,10 +159,10 @@ body {
 
 .eduTitleBox {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: flex-start;
   align-items: center;
-  margin: 2rem;
+  margin: 1rem;
   align-self: flex-start;
 }
 
@@ -215,6 +226,9 @@ body {
   text-align: center;
   color: #000000;
   margin: .5rem;
+  border-radius: 20px;
+  background-color: #ffffff8f;
+  max-width: 800px;
 }
 
 .schoolLink {
@@ -225,7 +239,7 @@ body {
   line-height: 26px;
   text-align: center;
   color: #000000;
-  margin: 1.5rem;
+  margin: 2rem;
 }
 
 /* Portfolio Styles */
@@ -281,7 +295,8 @@ body {
 .webEx {
   width: 335px;
   height: 205px;
-  margin: .5rem;
+  margin: .8rem;
+  margin-top: 2rem;
   border: 2px solid black;
   border-radius: 5%;
 }
@@ -305,21 +320,23 @@ body {
   line-height: 35px;
   text-align: center;
   color: #000000;
+  margin: .8rem;
 }
 
 .portInfo {
   font-family: 'Roboto Mono';
   font-style: normal;
   font-weight: 400;
-  font-size: 17px;
-  line-height: 20px;
+  font-size: 17px; 
+  line-height: 23px;
   text-align: center;
   color: #000000;
-  margin-bottom: 1rem;
-  margin-left: 1rem;
-  margin-right: 1rem;
+  margin-bottom: 1.3rem;
+  margin-left: 1.3rem;
+  margin-right: 1.3rem;
+  background-color: #ffffff68;
+  border-radius: 20px;
 }
-
 /* Contact Styles */
 
 .contactBody {
@@ -384,7 +401,12 @@ label {
   font-size: 20px;
   line-height: 30px;
   height: 7vh;
-  width: 25vw;
+  width: 35vw;
+}
+
+.inPut:hover {
+  background-color:#6FB0BE;
+  transition-duration: .5s;
 }
 
 .textArea {
@@ -392,13 +414,18 @@ label {
   border: 5px solid #000000;
   margin-left: 2rem;
   height: 20vh;
-  width: 27vw;
+  width: 35vw;
   color: black;
   font-family: 'Roboto Mono';
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 30px;
+}
+
+.textArea:hover {
+  background-color:#6FB0BE;
+  transition-duration: .5s;
 }
 
 .formBtn {
@@ -422,7 +449,8 @@ label {
 .formBtn:hover {
   background-color:#6FB0BE;
   color:  black;
-  border: 9px solid black;
+  transition-duration: .5s;
+  /*border: 9px solid black;*/
 }
 
 .socialGroup {
@@ -438,11 +466,12 @@ label {
 
 .socialBtnOne:hover {
   filter: drop-shadow(0px 4px 4px rgba(242, 229, 202, 100));
-  
+  transition-duration: .5s;
 }
 
 .socialBtnTwo:hover {
   filter: drop-shadow(0px 4px 4px rgba(242, 229, 202, 100));
+  transition-duration: .5s;
 }
 
 /* Button Styles */
@@ -461,11 +490,15 @@ label {
 
 /* Media Quieries */
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1250px) {
 
-  .portBody {
+  .portInfoBox {
     flex-direction: column;
-   }
+  }
+
+}
+
+@media screen and (max-width: 1200px) {
 
   .portTitleBox {
     align-self: center;
@@ -552,7 +585,7 @@ label {
 
 @media screen and (max-width: 768px) {
 
-  .portBox {
+  .portInfoBox {
     flex-direction: column;
   }
 

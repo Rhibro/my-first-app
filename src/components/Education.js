@@ -13,6 +13,48 @@ const Education = () => {
             </div>
             </Link>
             <div className="eduInfoBox">
+            <div className="eduBox">
+                    <h1 className="schoolName">
+                        Chas Academy 
+                    </h1>
+                    <p className="timePlace">
+                        Sept 2024 - June 2026 || Malmö, Sweden
+                    </p>
+                    <p className="eduInfo">
+                        In this two-year training, you focus on becoming proficient in web development with a 
+                        particular focus on Javascript, but also Typescript, which is used for both frontend
+                        and backend development. The program also gives you in-depth knowledge in technical 
+                        frameworks such as React.js, Vue.js, backend development in Node.js to create APIs,
+                        and work against different databases.
+                    </p>
+                    <div>
+                        <Link to={{pathname:
+                            "https://chasacademy.se/program/fullstackutvecklare-javascript"}}
+                            target="_blank" className="schoolLink">
+                            More Information
+                        </Link>
+                    </div>
+               </div>
+               <div className="eduBox">
+                    <h1 className="schoolName">
+                        Kvarnby Folkhögskola
+                    </h1>
+                    <p className="timePlace">
+                        Jan 2024 - June 2024 || Malmö, Sweden
+                    </p>
+                    <p className="eduInfo">
+                        This course has a focus on the subject of Swedish as a second language. 
+                        The study program also includes course in contemporary Swedish history,
+                        academic writing, and work themed projects.   
+                    </p>
+                    <div>
+                   <Link to={{pathname:
+                            "https://www.kvarnby.se/kurser/akademikerkursen/"}}
+                            target="_blank" className="schoolLink">
+                            More Information
+                        </Link>
+                   </div>
+               </div>
                <div className="eduBox">
                     <h1 className="schoolName">
                             Sundsgården Folkhögskola
@@ -33,26 +75,6 @@ const Education = () => {
                             More Information
                         </Link>
                    </div>
-               </div>
-               <div className="eduBox">
-                    <h1 className="schoolName">
-                        Downward Dog Yoga Center
-                    </h1>
-                    <p className="timePlace">
-                        Jan 2017 - May 2017 || Toronto, Canada
-                    </p>
-                    <p className="eduInfo">
-                        An in depth understanding of yoga anatomy and how different positions can affect 
-                        the body, History of Ashtanga practice, and adjustments. Must be able to give 
-                        clear instructions to complex positions.
-                    </p>
-                    <div>
-                        <Link to={{pathname:
-                            "https://downwarddog.com/teacher-training/200hr-program-objectives/"}}
-                            target="_blank" className="schoolLink">
-                            More Information
-                        </Link>
-                    </div>
                </div>
                <div className="eduBox">
                     <h1 className="schoolName">
